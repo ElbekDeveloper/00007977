@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FacadePattern.Models;
+using System;
 
 namespace FacadePattern
 {
@@ -10,6 +7,12 @@ namespace FacadePattern
     {
         static void Main(string[] args)
         {
+            //Check feature was activate by tutor in the system
+            CheckAction action = new CheckAction(new Tutor(1111));
+            action.Check();
+
+
+            Console.ReadKey();
         }
     }
 }
