@@ -45,6 +45,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\EraserTool.cs" />
+    <Compile Include="Tools\HighlightTool.cs" />
+    <Compile Include="Tools\PenTool.cs" />
+    <Compile Include="Tools\ToolState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
