@@ -10,7 +10,7 @@ namespace StatePattern.Tools
     /// <summary>
     /// Individual tool
     /// </summary>
-    class EraserTool : ToolState
+    public class EraserTool : ToolState
     {
         public void MouseDown()
         {

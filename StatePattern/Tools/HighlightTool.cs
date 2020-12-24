@@ -3,7 +3,7 @@
 
 namespace StatePattern.Tools
 {
-    class HighlightTool : ToolState
+    public class HighlightTool : ToolState
     {
         public void MouseDown()
         {
