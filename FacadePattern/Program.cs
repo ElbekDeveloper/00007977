@@ -8,7 +8,7 @@ namespace FacadePattern
         static void Main(string[] args)
         {
             //Check feature was activate by tutor in the system
-            CheckAction action = new CheckAction(new Tutor(1111));
+            ActionFacade action = new ActionFacade(new Tutor(1111));
             action.Check();
 
 

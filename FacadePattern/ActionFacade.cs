@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace FacadePattern
 {
-    public class CheckAction
+    public class ActionFacade
     {
         private Tutor _tutor;
 
-        public CheckAction(Tutor tutor)
+        public ActionFacade(Tutor tutor)
         {
             _tutor = tutor;
         }
