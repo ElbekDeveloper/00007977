@@ -12,14 +12,18 @@ namespace StatePattern.Tools
     /// </summary>
     public class EraserTool : ToolState
     {
+        public EraserTool()
+        {
+            Console.WriteLine("Eraser was selected...");
+        }
         public void MouseDown()
         {
-            Console.WriteLine("Eraser icon...");
+            Console.WriteLine("Start erasing.\nErase upon the trajectory...");
         }
 
         public void MouseUp()
         {
-            Console.WriteLine("Erase upon the trajectory...");
+            Console.WriteLine("Stop erasing...");
         }
     }
 }
